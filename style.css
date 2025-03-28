@@ -19,7 +19,7 @@ body {
   box-shadow: 5px 8px 5px #415a77;
   position: relative;
   animation-name: changeBgColor;
-  animation-duration: 4s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
 }
 
