@@ -1,0 +1,41 @@
+body {
+  margin: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.card {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: #e0e1dd;
+  background-color: #1b263b;
+  border-top: 8px solid #dda15e;
+  border-bottom: 8px solid #dda15e;
+  border-radius: 10px;
+  box-shadow: 5px 8px 5px #415a77;
+  position: relative;
+  animation-name: changeBgColor;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.avatar {
+  width: 150px;
+}
+
+@keyframes changeBgColor {
+  from {
+    background-color: #1b263b;
+  }
+  to {
+    background-color: #005f73;
+  }
+}
